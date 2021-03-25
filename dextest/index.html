@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html>
+    <head>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='style.css'>
+        <title>Dexterity Practice</title>
+        <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+        <script src='https://code.jquery.com/color/jquery.color-2.1.2.min.js'></script>
+        <script src='https://code.jquery.com/ui/1.11.3/jquery-ui.min.js'></script>
+    </head>
+    
+    <body>
+        
+        <div class='row'>
+            <div class='col-md-2'></div>
+            <div class='col-md-2'>
+                <h1 class='counter text-center'>Streak: 0</h1>
+            </div>
+            <div class='col-md-4'>
+                <h1 class='text-center gamemode'>Playground</h1>
+            </div>
+            <div class='col-md-2'>
+                <h1 class='hiScore text-center'>Best: 0</h1>
+            </div>
+            <div class='col-md-2'></div>
+        </div>
+        <div class='row'>
+            <div class='col-md-12'><p class='text-center'>(Press Tab to change mode)</p></div>
+        </div>
+        <div class='row' id='rowTop'>
+            <div class='key' id='tab'></div>
+            <div class='key' id='keyq'></div>
+            <div class='key' id='keyw'></div>
+            <div class='key' id='keye'></div>
+            <div class='key' id='keyr'></div>
+            <div class='vertical'></div>
+            <div class='key' id='keyt'></div>
+            <div class='key' id='keyy'></div>
+            <div class='vertical'></div>
+            <div class='key' id='keyu'></div>
+            <div class='key' id='keyi'></div>
+            <div class='key' id='keyo'></div>
+            <div class='key' id='keyp'></div>
+        </div>
+        <div class = 'row' id='rowHome'>
+            <div class='key' id='keya'></div>
+            <div class='key' id='keys'></div>
+            <div class='key' id='keyd'></div>
+            <div class = 'key' id = 'keyf'></div>
+            <div class='vertical noborder'></div>
+            <div class = 'key' id = 'keyg'></div>
+            <div class = 'key' id = 'keyh'></div>
+            <div class='vertical noborder'></div>
+            <div class = 'key' id = 'keyj'></div>
+            <div class='key' id='keyk'></div>
+            <div class='key' id='keyl'></div>
+            <div class='key' id='keysemi'></div>
+            <div class='key' id='keyapos'></div>
+        </div>
+        <div class = 'row' id='rowBot'>
+            <div class='key' id='keyz'></div>
+            <div class='key' id='keyx'></div>
+            <div class='key' id='keyc'></div>
+            <div class='key' id='keyv'></div>
+            <div class='vertical'></div>
+            <div class='key' id='keyb'></div>
+            <div class='key' id='keyn'></div>
+            <div class='vertical'></div>
+            <div class='key' id='keym'></div>
+            <div class='key' id='keycomm'></div>
+            <div class='key' id='keystop'></div>
+            <div class='key' id='keyslash'></div>
+        </div>
+        <div class='row' id='rowSpace'>
+            <div class='spacebar' id='keyspace'></div>
+        </div>
+        <div class='row'>
+            <p id='tryagain' class='hidden text-center'>try again!</p>
+        </div>
+        <div class='row hidden' id='rowSubmit'>
+            <form id='submitForm' action='submit.php' class='text-center' method='post'>
+                Name: <input id='name' name='name' type='text' required><br><br>
+                <input id='sequenceScore' name='sequenceScore' type='hidden'>
+                <input id='randomScore' name='randomScore' type='hidden'>
+                <input type='submit' name='submitButton' class='btn btn-primary' id='submitButton' value='Submit scores'>
+            </form>
+        </div>
+        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+        <script src='script.js'></script>
+    </body>
+</html>
