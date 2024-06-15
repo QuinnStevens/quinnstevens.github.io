@@ -1,0 +1,4 @@
+baseURL = 'https://quinns.dev/'
+languageCode = 'en-gb'
+title = "Quinns' Blog"
+theme = "ananke"
