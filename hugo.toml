@@ -1,4 +1,9 @@
 baseURL = 'https://quinns.dev/'
-languageCode = 'en-gb'
+
+theme = "hugo-bearblog"
+
+# Basic metadata configuration
 title = "Quinns' Blog"
-theme = "ananke"
+author = "Quinn Stevens"
+copyright = "Copyright © 2024, Quinn Stevens"
+languageCode = 'en-GB'
