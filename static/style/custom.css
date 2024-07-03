@@ -1,4 +1,4 @@
-  body {
+body {
     font-family: Verdana, sans-serif;
     margin: auto;
     padding: 20px;
@@ -9,4 +9,15 @@
     overflow-wrap: break-word;
     line-height: 1.5;
     color: #D4A1FF;
-  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+    color: #d4a1ff;
+}
